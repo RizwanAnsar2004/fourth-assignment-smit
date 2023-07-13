@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    form{
+        position:relative;
+        background-color: blueviolet;
+        color:white;
+    
+    }
+    .new{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    form{
+        width: 1000px;
+    }
+    .prompt{
+        margin-left:50px;
+    
+    }
+    .input {
+        margin-left: 80px;
+    
+      }
+      </style>
+</head>
+
+<body>
+    <h1 style="color:blueviolet; text-align: center;"><u>STUDENT REGISTRATION FORM</u></h1>
+<div class="new" >
+    <form >
+        <br>
+        <label for="fname" class="prompt">FIRST NAME</label>
+        <input type="text" id="fname" class="input">
+        <label for="fname" class="tutorial">(max 30 characters a-z and A-Z)</label>
+        <br><br>
+        <label for="lname"class="prompt">LAST NAME</label>
+        <input type="text" id="lname"  class="input">
+        <label for="lname" class="tutorial">(max 30 characters a-z and A-Z)</label>
+        <br><br>
+        <label for="dob"class="prompt">DATE OF BIRTH</label>
+
+        <select  class="input" id="day" name="day" style="margin-left: 55px;">
+            <option selected>Day</option>
+            <option>01</option>
+            <option>02</option>
+            <option>03</option>
+            <option>04</option>
+            <option>05</option>
+            <option>06</option>
+            <option>07</option>
+            <option>08</option>
+            <option>09</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+        <select   id="Month" name="month">
+            <option selected>month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+
+        <select id="year" name="year">
+            <option selected>Year</option>
+            <option>1970</option>
+            <option>1971</option>
+            <option>1972</option>
+            <option>1973</option>
+            <option>1974</option>
+            <option>1975</option>
+            <option>1976</option>
+            <option>1977</option>
+            <option>1978</option>
+            <option>1979</option>
+            <option>1980</option>
+            <option>1981</option>
+            <option>1982</option>
+            <option>1983</option>
+            <option>1984</option>
+            <option>1985</option>
+            <option>1986</option>
+            <option>1987</option>
+            <option>1988</option>
+            <option>1989</option>
+            <option>1990</option>
+            <option>1991</option>
+            <option>1992</option>
+            <option>1993</option>
+            <option>1994</option>
+            <option>1995</option>
+            <option>1996</option>
+            <option>1997</option>
+            <option>1998</option>
+            <option>1999</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>
+            <option>2012</option>
+            <option>2013</option>
+            <option>2014</option>
+            <option>2015</option>
+            <option>2016</option>
+            <option>2017</option>
+            <option>2018</option>
+            <option>2019</option>
+            <option>2020</option>
+            <option>2021</option>
+            <option>2022</option>
+            <option>2023</option>
+        </select>
+        <br><br>
+        <label for="mail" class="prompt">EMAIL ID</label>
+        <input type="email" id="mail" class="input" style="margin-left: 95px;">
+        <br><br>
+        <label for="mobile"class="prompt">MOBILE NUMBER</label>
+        <input type="tel" id="mobile"  class="input" style="margin-left: 35px;">
+        <label for="mobile" >(10 DIGIT NUMBER)</label>
+        <br><br>
+        <label class="prompt">GENDER</label>
+        <input type="radio" name="gender" id="male" class="input" style="margin-left: 95px;">
+        <label for="male">MALE</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">FEMALE</label>
+        <br><br>
+        <label for="address" class="prompt">ADDRESS</label>
+        <textarea name="" id="address" cols="30" rows="10"  class="input" style="margin-left: 90px;"></textarea>
+        <br><br>
+        <label for="city" class="prompt">CITY</label>
+        <input type="text" id="city"  class="input" style="margin-left: 125px;">
+        <label for="city"class="tutorial">(max 30 characters a-z and A-Z)</label>
+        <br><br>
+        <label for="pin" class="prompt">PIN CODE</label>
+        <input type="number" id="pin"  class="input"style="margin-left:90px;">
+        <label for="pin"class="tutorial">(max 30 characters a-z and A-Z)</label>
+        <br><br>
+        <label for="state" class="prompt">STATE</label>
+        <input type="text" id="state"  class="input" style="margin-left:115px;">
+        <label for="state"class="tutorial">(max 30 characters a-z and A-Z)</label>
+        <br><br>
+        <label for="nation"class="prompt">COUNTRY</label>
+        <input type="text" id="nation"  class="input"style="margin-left:85px;">
+        <br><br>
+        <label for="hobbies" class="prompt">HOBBIES</label>
+        
+        <label for="draw" class="input"style="margin-left:95px;">Drawing</label>
+        <input type="checkbox"  id="draw">
+        
+        <label for="sing" >Singing</label>
+        <input type="checkbox" id="sing">
+
+        <label for="dance">Dancing</label>
+        <input type="checkbox" id="dance">
+
+        <label for="sketch">Sketching</label>
+        <input type="checkbox" id="sketch">
+<br>
+        <label for="other" class="input"style="margin-left:215px;">Others</label>
+        <input type="checkbox" id="other">
+
+        <input type="text"id="other">
+        <br><br> 
+        <label for="exp" class="prompt">QUALIFICATION</label>
+<table id="exp" class="input"style="margin-left:30px; display:inline; text-align:center;">
+    <tr>
+        <th>SI.No</th>
+        <th>Exammination</th>
+        <th>Board</th>
+        <th>Percentage</th>
+        <th>Year of Passing</th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>Class X</th>
+        <td><input type="text"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>Class XII</th>
+        <td><input type="text"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th>Grduation</th>
+        <td><input type="text"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+    </tr>
+    <tr>
+        <th>4</th>
+        <th>Masters</th>
+        <td><input type="text"></td>
+        <td><input type="number"></td>
+        <td><input type="number"></td>
+    </tr><tr>
+        <td></td>
+        <td></td>
+        <td><center>(10 char max)</center></td>
+        <td><center>(upto 2 decimal)</center></td>
+        <td></td>
+    </tr>
+</table>
+<br><br>
+    <label class="prompt"style="margin-left:px;">COURSES <br> &nbsp; &nbsp; &nbsp; APPLIED FOR </label>
+    <label for="bca"class="input"style="margin-left:90px;">BCA</label>
+        <input type="radio" name="courses" id="bca" >
+        <label for="bcomm" >B.Com</label>
+        <input type="radio" name="courses" id="bcomm" > 
+        <label for="bsc" >B.Sc</label>
+        <input type="radio" name="courses" id="bsc">
+        <label for="ba">B.A</label>
+        <input type="radio" name="courses" id="ba">
+        <br><br>
+        <center>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <center>
+        <br><br>
+    </form>
+</div>
+</body>
+
+</html>
